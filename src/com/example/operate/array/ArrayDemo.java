@@ -5,16 +5,16 @@ public class ArrayDemo {
     public static void main(String[] args){
         int[] arr = {3,14,5,11,7,6,9,13};
 
-//        int arrayMax = getArrayMax(arr);
-//        selectSortArray(arr);
-//        bubbleSort(arr);
-//        printArray(arr);
-//        System.out.println("数组的最大值 为"+arrayMax);
+        int arrayMax = getArrayMax(arr);
+        selectSortArray(arr);
+        bubbleSort(arr);
+        printArray(arr);
+        System.out.println("数组的最大值 为"+arrayMax);
 
-        System.out.println(Integer.toBinaryString(60));
-        System.out.println(Integer.toBinaryString(-60));
-        System.out.println(Integer.toHexString(60));
-        System.out.println(Integer.toHexString(-60));
+//        System.out.println(Integer.toBinaryString(60));
+//        System.out.println(Integer.toBinaryString(-60));
+//        System.out.println(Integer.toHexString(60));
+//        System.out.println(Integer.toHexString(-60));
     }
 
     public static void printArray(int[] arr){
@@ -47,7 +47,7 @@ public class ArrayDemo {
 
 
     /**
-     * 冒泡排序——
+     * 冒泡排序——嵌套循环，两次循环，让最大的数依次选出
      * @param array
      * @return
      */
@@ -66,7 +66,7 @@ public class ArrayDemo {
     }
 
     /**
-     * 选择排序——将数组里面的元素从小到大排序
+     * 选择排序——嵌套循环。两次将数组里面的元素从小到大排序
      * @param arr
      */
     public static int[] selectSortArray(int[] arr){
