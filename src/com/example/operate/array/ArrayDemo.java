@@ -1,4 +1,4 @@
-package com.example.operate;
+package com.example.operate.array;
 
 public class ArrayDemo {
 
